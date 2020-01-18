@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 0.2rem solid #f7c08a;
+    padding: 2rem;
+    background-color: rgba(50,45,50,0.8);
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+    color: black;
+}
+
+/* nav-bar */
+
+#nav-container {
+    background-color: rgba(50,45,50);
+    font-size: 1.8rem;
+    overflow: hidden;
+}
+
+.links {
+    float: right;
+}
+
+.item1,.item2,.item3,.item4 {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    text-align: center;
+    outline: none;
+}
+
+#nav-container .item1 {
+    padding-left: 5rem;
+    /* float: left; */
+}
+
+.item2:hover,.item3:hover,.item4:hover, #nav-container a.item2  {
+    background-color: #444;
+    color: #f7c08a;
+}
+
+/* Header */
+
+#header {
+    height: 125rem;
+    background-image: url("../img/IMG_2484.jpeg");
+    /* background-image: url("msd.jpeg"); */
+    /* background-image: url("IMG_0455.jpeg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top/contain;
+    background-color: lightslategray;
+    background-blend-mode: darken;
+    background-origin: border-box;
+}
+
+#header .content {
+    text-align: center;
+    color: #fff;
+    padding-top: 45rem;
+    font-size: 2rem;
+    width: 100%;
+}
+
+#header .content h1 {
+    font-size: 8rem;
+    padding: 2rem;
+    margin: 2rem;
+    line-height: 1.2;
+}
+
+#header .content p {
+    font-size: 2.2rem;
+    line-height: 1.8;
+    padding-bottom: 3rem;
+}
+
+.name {
+    color: #f7c08a;
+}
+
+/* section */
+
+#info {
+    font-size: 1.5rem;
+    height: 60rem;
+}
+
+#info .info-img {
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-image: url("../img/msd.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top/contain;
+}
+
+#info .info-content {
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(50,45,50);
+    padding-top: 10rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+#info .info-content h1 {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 4rem;
+}
+
+#info .info-content p {
+    margin: 2rem;
+    padding: 0.2rem;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#foot {
+    clear: both;
+    background-color: rgba(50,45,50);
+    height: 14rem;
+}
+
+/* .fitem {
+    color: black;
+    text-decoration: none;
+} */
+
+.fa {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    width: 25%;
+    padding: 2rem;
+}
+
+#foot p {
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+
+/* "https://images.pexels.com/photos/26139/pexels-photo-26139.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" */
+

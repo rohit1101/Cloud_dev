@@ -1,0 +1,94 @@
+/* navigation bar */
+#nav-container {
+    float: none;
+    text-align: center;
+}
+
+#nav-container .item2, #nav-container .item3, #nav-container .item4 {
+    border: 1px dotted #444;
+}
+
+#nav-container .links {
+    /* margin: 1rem; */
+    /* display: block; */
+    float: none;
+}
+
+/* main */
+
+#header {
+    height: 55rem;
+}
+
+#header .content {
+    padding-top: 4rem;
+}
+
+#header .content h1 {
+    font-size: 3rem;
+}
+
+#header .content p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    padding: 1rem;
+}
+
+
+/* above footer */
+
+#info {
+    float: none;
+    height: 40rem;
+}
+
+#info .info-content h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#info .info-img {
+    display: none;
+}
+
+#info .info-content {
+    width: 100%;
+}
+
+/* about */
+
+.head-container .head-content {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#head .head-img {
+    float: none;
+    width: 100%;
+    padding: 0;
+}
+
+.head-container .head-content h1 {
+    text-align: center;
+}
+
+#testi {
+    height: 100%;
+}
+
+.container .box img {
+    float: none;
+    width: 100%;
+    display: block;
+    margin-top: -1rem;
+}
+
+.container .box h1 {
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+}
